@@ -1,0 +1,13 @@
+{
+    "name": "ghostops/chunkpruner",
+    "version": "1.0.0",
+    "require": {
+        "aternos/thanos": "^3.0",
+        "ulrichsg/getopt-php": "^4.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "PrunerCLI\\": "src/"
+      }
+    }
+}

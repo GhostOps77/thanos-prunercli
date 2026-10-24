@@ -1,0 +1,38 @@
+# Composer dependencies
+/vendor/
+
+# Keep composer.lock for applications.
+# For reusable libraries, decide whether to commit it separately.
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.dist
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+*.cache
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local development configuration
+docker-compose.override.yml
+phpunit.xml
+phpunit.xml.dist.bak
